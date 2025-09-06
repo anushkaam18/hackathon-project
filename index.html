@@ -1,3 +1,4 @@
+
 <!DOCTYPE html><html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -5,6 +6,16 @@
     <title>AMR Robot - Hilly Terrain & Market Load Solutions</title>
     <link rel="stylesheet" href="styles.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <style>
+        .tab-text ul li::before {
+            content: "\2714"; /* check mark */
+            color: green;
+            font-weight: bold;
+            display: inline-block;
+            width: 1em;
+            margin-left: -1em;
+        }
+    </style>
 </head>
 <body>
     <!-- Header Section -->
@@ -67,7 +78,7 @@
                     <li>2-wheel robot chassis kit (2WD)</li>
                     <li>HC-SR04 ultrasonic sensor</li>
                     <li>Battery pack (4×AA holder) or 18650 pack + holder</li>
-                    <li>Wheels, caster wheel, jumper wires, screws, taps</li>
+                    <li>Wheels, caster wheel, jumper wires, screws, tapes</li>
                 </ul>
 
                 <h4>Methodology</h4>
@@ -78,12 +89,13 @@
                     <li>Autonomous vehicle parking system prototype.</li>
                 </ul>
 
+                <!-- Space before Smart Mobility -->
+                <div style="margin-top: 20px;"></div>
+
                 <h3>Smart Mobility for Challenging Environments</h3>
                 <p>Our Autonomous Mobile Robot (AMR) is specifically designed to address the challenges of navigating hilly terrains while efficiently managing market loads. Using advanced AI algorithms, terrain mapping, and adaptive locomotion, our robot provides unmatched performance in environments where traditional robots struggle.</p>
-
                 <h3>Smart Hackathon Innovation (SIH) Project</h3>
                 <p>This project is part of the Smart India Hackathon (SIH), focusing on developing innovative solutions to real-world problems. Our team has created this AMR robot to revolutionize logistics and transportation in hilly regions and market environments.</p>
-
                 <div class="stats">
                     <div class="stat-item">
                         <h4>30°</h4>
@@ -162,7 +174,7 @@
     <div class="container">
         <div class="section-header">
             <h2>Reference</h2>
-            <p>Real-world use cases for our AMR robot technology</p>
+            <p>Real-world references for our AMR robot technology</p>
         </div>
         <div class="applications-content">
             <div class="application-tabs">
@@ -173,48 +185,72 @@
             </div>
             <div class="tab-content">
                 <div class="tab-pane active" id="hilly-terrain">
-                    <h3>Hilly Terrain Navigation</h3>
-                    <ul>
-                        <li>Navigate slopes up to 30 degrees</li>
-                        <li>Traverse uneven and rocky surfaces</li>
-                        <li>Maintain stability on varying gradients</li>
-                        <li>Adapt to changing terrain conditions</li>
-                        <li>Operate in mountain villages and hillside communities</li>
-                    </ul>
-                    <p>This makes it ideal for last-mile delivery in mountainous regions, search and rescue operations, and infrastructure inspection in hilly areas.</p>
+                    <div class="tab-image">
+                        <img src="images/hilly-terrain.svg" alt="Hilly Terrain Reference">
+                    </div>
+                    <div class="tab-text">
+                        <h3>Hilly Terrain Navigation</h3>
+                        <p>Our AMR robot excels in navigating challenging hilly terrains where traditional wheeled robots fail. With its adaptive locomotion system, it can:</p>
+                        <ul>
+                            <li>Navigate slopes up to 30 degrees</li>
+                            <li>Traverse uneven and rocky surfaces</li>
+                            <li>Maintain stability on varying gradients</li>
+                            <li>Adapt to changing terrain conditions</li>
+                            <li>Operate in mountain villages and hillside communities</li>
+                        </ul>
+                        <p><em>This makes it ideal for last-mile delivery in mountainous regions, search and rescue operations, and infrastructure inspection in hilly areas.</em></p>
+                    </div>
                 </div>
                 <div class="tab-pane" id="market-load">
-                    <h3>Market Load Management</h3>
-                    <ul>
-                        <li>Transport goods between market stalls</li>
-                        <li>Assist vendors with heavy inventory movement</li>
-                        <li>Manage variable load sizes and weights</li>
-                        <li>Navigate crowded market spaces safely</li>
-                        <li>Provide autonomous delivery within market complexes</li>
-                    </ul>
-                    <p>The robot's intelligent load management system ensures safe and efficient transportation of market goods, reducing physical strain on workers and improving operational efficiency.</p>
+                    <div class="tab-image">
+                        <img src="images/market-load.svg" alt="Market Load Reference">
+                    </div>
+                    <div class="tab-text">
+                        <h3>Market Load Management</h3>
+                        <p>Designed specifically for market environments, our AMR robot efficiently handles various load types:</p>
+                        <ul>
+                            <li>Transport goods between market stalls</li>
+                            <li>Assist vendors with heavy inventory movement</li>
+                            <li>Manage variable load sizes and weights</li>
+                            <li>Navigate crowded market spaces safely</li>
+                            <li>Provide autonomous delivery within market complexes</li>
+                        </ul>
+                        <p><em>The robot's intelligent load management system ensures safe and efficient transportation of market goods, reducing physical strain on workers and improving operational efficiency.</em></p>
+                    </div>
                 </div>
                 <div class="tab-pane" id="logistics">
-                    <h3>Logistics & Supply Chain</h3>
-                    <ul>
-                        <li>Last-mile delivery in hilly regions</li>
-                        <li>Warehouse-to-market transportation</li>
-                        <li>Cross-terrain supply chain operations</li>
-                        <li>Automated loading and unloading</li>
-                        <li>Integration with existing logistics systems</li>
-                    </ul>
-                    <p>By combining terrain adaptability with load management capabilities, our robot provides a comprehensive solution for logistics challenges in diverse geographical settings.</p>
+                    <div class="tab-image">
+                        <img src="images/logistics.svg" alt="Logistics Reference">
+                    </div>
+                    <div class="tab-text">
+                        <h3>Logistics & Supply Chain</h3>
+                        <p>Our AMR robot transforms logistics operations in challenging environments:</p>
+                        <ul>
+                            <li>Last-mile delivery in hilly regions</li>
+                            <li>Warehouse-to-market transportation</li>
+                            <li>Cross-terrain supply chain operations</li>
+                            <li>Automated loading and unloading</li>
+                            <li>Integration with existing logistics systems</li>
+                        </ul>
+                        <p><em>By combining terrain adaptability with load management capabilities, our robot provides a comprehensive solution for logistics challenges in diverse geographical settings.</em></p>
+                    </div>
                 </div>
                 <div class="tab-pane" id="agriculture">
-                    <h3>Agricultural Applications</h3>
-                    <ul>
-                        <li>Transport harvested crops from hillside farms</li>
-                        <li>Deliver supplies to remote agricultural areas</li>
-                        <li>Assist with terrace farming operations</li>
-                        <li>Navigate between different elevation fields</li>
-                        <li>Support sustainable farming in challenging terrains</li>
-                    </ul>
-                    <p>The robot's adaptability to handle both the terrain challenges and load requirements makes it an ideal solution for modernizing agricultural logistics in hilly farming regions.</p>
+                    <div class="tab-image">
+                        <img src="images/agriculture.svg" alt="Agriculture Reference">
+                    </div>
+                    <div class="tab-text">
+                        <h3>Agricultural Applications</h3>
+                        <p>Our AMR robot offers significant benefits for agricultural operations in hilly regions:</p>
+                        <ul>
+                            <li>Transport harvested crops from hillside farms</li>
+                            <li>Deliver supplies to remote agricultural areas</li>
+                            <li>Assist with terrace farming operations</li>
+                            <li>Navigate between different elevation fields</li>
+                            <li>Support sustainable farming in challenging terrains</li>
+                        </ul>
+                        <p><em>The robot's adaptability to handle both the terrain challenges and load requirements makes it an ideal solution for modernizing agricultural logistics in hilly farming regions.</em></p>
+                    </div>
                 </div>
             </div>
         </div>
@@ -335,18 +371,3 @@
                 <p>Subscribe to our newsletter for the latest updates</p>
                 <form id="newsletterForm">
                     <input type="email" placeholder="Enter your email" required>
-                    <button type="submit" class="btn btn-primary">Subscribe</button>
-                </form>
-            </div>
-        </div>
-        <div class="footer-bottom">
-            <p>&copy; 2023 AMR Robot - Smart India Hackathon Project. All rights reserved.</p>
-        </div>
-    </div>
-</footer>
-
-<script src="script.js"></script>
-
-</body>
-</html>
-
