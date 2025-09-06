@@ -1,0 +1,135 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="500" height="400" viewBox="0 0 500 400">
+  <!-- Sky Background -->
+  <rect x="0" y="0" width="500" height="400" fill="#ecf0f1" opacity="0.5"/>
+  
+  <!-- Sun -->
+  <circle cx="80" cy="80" r="40" fill="#f39c12"/>
+  <circle cx="80" cy="80" r="30" fill="#f1c40f"/>
+  
+  <!-- Terraced Farm Fields -->
+  <path d="M0,150 L500,150 L500,180 L0,180 Z" fill="#27ae60" opacity="0.7"/>
+  <path d="M50,180 L500,180 L500,210 L50,210 Z" fill="#27ae60" opacity="0.8"/>
+  <path d="M100,210 L500,210 L500,240 L100,240 Z" fill="#27ae60" opacity="0.9"/>
+  <path d="M150,240 L500,240 L500,270 L150,270 Z" fill="#27ae60"/>
+  <path d="M200,270 L500,270 L500,300 L200,300 Z" fill="#27ae60" opacity="0.9"/>
+  <path d="M250,300 L500,300 L500,330 L250,330 Z" fill="#27ae60" opacity="0.8"/>
+  <path d="M300,330 L500,330 L500,360 L300,360 Z" fill="#27ae60" opacity="0.7"/>
+  <path d="M350,360 L500,360 L500,400 L350,400 Z" fill="#27ae60" opacity="0.6"/>
+  
+  <!-- Terrace Edges -->
+  <line x1="0" y1="150" x2="500" y2="150" stroke="#2c3e50" stroke-width="2"/>
+  <line x1="50" y1="180" x2="500" y2="180" stroke="#2c3e50" stroke-width="2"/>
+  <line x1="100" y1="210" x2="500" y2="210" stroke="#2c3e50" stroke-width="2"/>
+  <line x1="150" y1="240" x2="500" y2="240" stroke="#2c3e50" stroke-width="2"/>
+  <line x1="200" y1="270" x2="500" y2="270" stroke="#2c3e50" stroke-width="2"/>
+  <line x1="250" y1="300" x2="500" y2="300" stroke="#2c3e50" stroke-width="2"/>
+  <line x1="300" y1="330" x2="500" y2="330" stroke="#2c3e50" stroke-width="2"/>
+  <line x1="350" y1="360" x2="500" y2="360" stroke="#2c3e50" stroke-width="2"/>
+  
+  <!-- Vertical Terrace Edges -->
+  <line x1="50" y1="150" x2="50" y2="180" stroke="#2c3e50" stroke-width="2"/>
+  <line x1="100" y1="180" x2="100" y2="210" stroke="#2c3e50" stroke-width="2"/>
+  <line x1="150" y1="210" x2="150" y2="240" stroke="#2c3e50" stroke-width="2"/>
+  <line x1="200" y1="240" x2="200" y2="270" stroke="#2c3e50" stroke-width="2"/>
+  <line x1="250" y1="270" x2="250" y2="300" stroke="#2c3e50" stroke-width="2"/>
+  <line x1="300" y1="300" x2="300" y2="330" stroke="#2c3e50" stroke-width="2"/>
+  <line x1="350" y1="330" x2="350" y2="360" stroke="#2c3e50" stroke-width="2"/>
+  
+  <!-- Crop Rows on Terraces -->
+  <!-- First Terrace -->
+  <g transform="translate(0, 150)">
+    <line x1="70" y1="0" x2="70" y2="30" stroke="#f1c40f" stroke-width="1" stroke-dasharray="2,3"/>
+    <line x1="90" y1="0" x2="90" y2="30" stroke="#f1c40f" stroke-width="1" stroke-dasharray="2,3"/>
+    <line x1="110" y1="0" x2="110" y2="30" stroke="#f1c40f" stroke-width="1" stroke-dasharray="2,3"/>
+    <line x1="130" y1="0" x2="130" y2="30" stroke="#f1c40f" stroke-width="1" stroke-dasharray="2,3"/>
+    <line x1="150" y1="0" x2="150" y2="30" stroke="#f1c40f" stroke-width="1" stroke-dasharray="2,3"/>
+  </g>
+  
+  <!-- Second Terrace -->
+  <g transform="translate(0, 180)">
+    <line x1="120" y1="0" x2="120" y2="30" stroke="#e67e22" stroke-width="1" stroke-dasharray="2,3"/>
+    <line x1="140" y1="0" x2="140" y2="30" stroke="#e67e22" stroke-width="1" stroke-dasharray="2,3"/>
+    <line x1="160" y1="0" x2="160" y2="30" stroke="#e67e22" stroke-width="1" stroke-dasharray="2,3"/>
+    <line x1="180" y1="0" x2="180" y2="30" stroke="#e67e22" stroke-width="1" stroke-dasharray="2,3"/>
+    <line x1="200" y1="0" x2="200" y2="30" stroke="#e67e22" stroke-width="1" stroke-dasharray="2,3"/>
+  </g>
+  
+  <!-- Third Terrace -->
+  <g transform="translate(0, 210)">
+    <line x1="170" y1="0" x2="170" y2="30" stroke="#2ecc71" stroke-width="1" stroke-dasharray="2,3"/>
+    <line x1="190" y1="0" x2="190" y2="30" stroke="#2ecc71" stroke-width="1" stroke-dasharray="2,3"/>
+    <line x1="210" y1="0" x2="210" y2="30" stroke="#2ecc71" stroke-width="1" stroke-dasharray="2,3"/>
+    <line x1="230" y1="0" x2="230" y2="30" stroke="#2ecc71" stroke-width="1" stroke-dasharray="2,3"/>
+    <line x1="250" y1="0" x2="250" y2="30" stroke="#2ecc71" stroke-width="1" stroke-dasharray="2,3"/>
+  </g>
+  
+  <!-- AMR Robot on Terrace -->
+  <g transform="translate(280, 255) scale(0.4)">
+    <!-- Robot Base/Platform -->
+    <rect x="-60" y="-30" width="120" height="30" rx="10" ry="10" fill="#34495e" stroke="#2c3e50" stroke-width="3"/>
+    
+    <!-- Wheels -->
+    <circle cx="-40" cy="0" r="15" fill="#7f8c8d" stroke="#2c3e50" stroke-width="2"/>
+    <circle cx="40" cy="0" r="15" fill="#7f8c8d" stroke="#2c3e50" stroke-width="2"/>
+    <circle cx="-40" cy="0" r="7" fill="#2c3e50"/>
+    <circle cx="40" cy="0" r="7" fill="#2c3e50"/>
+    
+    <!-- Robot Body -->
+    <rect x="-45" y="-80" width="90" height="50" rx="10" ry="10" fill="#3498db" stroke="#2980b9" stroke-width="3"/>
+    
+    <!-- Robot Head/Sensor Array -->
+    <rect x="-30" y="-110" width="60" height="30" rx="10" ry="10" fill="#3498db" stroke="#2980b9" stroke-width="3"/>
+    
+    <!-- Sensors -->
+    <circle cx="-15" cy="-95" r="5" fill="#e74c3c" stroke="#c0392b" stroke-width="1"/>
+    <circle cx="0" cy="-95" r="5" fill="#f1c40f" stroke="#f39c12" stroke-width="1"/>
+    <circle cx="15" cy="-95" r="5" fill="#2ecc71" stroke="#27ae60" stroke-width="1"/>
+    
+    <!-- Antenna -->
+    <line x1="0" y1="-110" x2="0" y2="-125" stroke="#7f8c8d" stroke-width="2"/>
+    <circle cx="0" cy="-130" r="5" fill="#e74c3c"/>
+    
+    <!-- Agricultural Load on Platform -->
+    <rect x="-40" y="-50" width="80" height="20" fill="#f1c40f" stroke="#f39c12" stroke-width="2"/>
+    <path d="M-30,-50 L-30,-60 L-25,-70 L-20,-60 L-20,-50" fill="#27ae60"/>  <!-- Plant -->
+    <path d="M-10,-50 L-10,-60 L-5,-70 L0,-60 L0,-50" fill="#27ae60"/>  <!-- Plant -->
+    <path d="M10,-50 L10,-60 L15,-70 L20,-60 L20,-50" fill="#27ae60"/>  <!-- Plant -->
+    <path d="M30,-50 L30,-60 L35,-70 L40,-60 L40,-50" fill="#27ae60"/>  <!-- Plant -->
+  </g>
+  
+  <!-- Farmer -->
+  <g transform="translate(400, 225)">
+    <!-- Body -->
+    <rect x="-5" y="-30" width="10" height="30" fill="#3498db"/>
+    <!-- Head -->
+    <circle cx="0" cy="-40" r="10" fill="#f5b041"/>
+    <!-- Hat -->
+    <path d="M-12,-45 L12,-45 L0,-55 Z" fill="#e67e22"/>
+    <!-- Arms -->
+    <line x1="-5" y1="-25" x2="-15" y2="-15" stroke="#3498db" stroke-width="5" stroke-linecap="round"/>
+    <line x1="5" y1="-25" x2="15" y2="-15" stroke="#3498db" stroke-width="5" stroke-linecap="round"/>
+    <!-- Legs -->
+    <line x1="-5" y1="0" x2="-10" y2="20" stroke="#34495e" stroke-width="5" stroke-linecap="round"/>
+    <line x1="5" y1="0" x2="10" y2="20" stroke="#34495e" stroke-width="5" stroke-linecap="round"/>
+    <!-- Tool -->
+    <line x1="15" y1="-15" x2="25" y2="5" stroke="#7f8c8d" stroke-width="2"/>
+  </g>
+  
+  <!-- Farm Building -->
+  <rect x="400" y="150" width="60" height="40" fill="#e74c3c" stroke="#c0392b" stroke-width="2"/>
+  <path d="M390,150 L430,120 L470,150" fill="#c0392b" stroke="#c0392b" stroke-width="2"/>
+  <rect x="420" y="170" width="20" height="20" fill="#ecf0f1"/>
+  
+  <!-- Path between Terraces -->
+  <path d="M50,165 C75,165 75,195 100,195 C125,195 125,225 150,225 C175,225 175,255 200,255 C225,255 225,285 250,285 C275,285 275,315 300,315 C325,315 325,345 350,345 C375,345 375,375 400,375" fill="none" stroke="#d35400" stroke-width="5" stroke-opacity="0.5"/>
+  
+  <!-- Title -->
+  <rect x="150" y="50" width="200" height="30" rx="5" ry="5" fill="#27ae60"/>
+  <text x="250" y="70" font-family="Arial" font-size="14" font-weight="bold" text-anchor="middle" fill="white">AGRICULTURAL APPLICATIONS</text>
+  
+  <!-- Elevation Indicator -->
+  <line x1="30" y1="150" x2="30" y2="400" stroke="#2c3e50" stroke-width="2"/>
+  <line x1="25" y1="150" x2="35" y2="150" stroke="#2c3e50" stroke-width="2"/>
+  <line x1="25" y1="400" x2="35" y2="400" stroke="#2c3e50" stroke-width="2"/>
+  <text x="20" y="275" font-family="Arial" font-size="12" text-anchor="middle" fill="#2c3e50" transform="rotate(-90, 20, 275)">ELEVATION</text>
+</svg>

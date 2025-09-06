@@ -1,0 +1,108 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 600" width="1000" height="600">
+  <!-- Background -->
+  <rect width="1000" height="600" fill="#f5f5f0" />
+  
+  <!-- Title -->
+  <text x="500" y="80" font-family="Arial, sans-serif" font-size="40" font-weight="bold" text-anchor="middle" fill="#1a3a5f">IMPACT AND BENEFITS OF AMR ROBOT</text>
+  
+  <!-- Impact Section -->
+  <text x="240" y="150" font-family="Arial, sans-serif" font-size="36" font-weight="bold" text-anchor="middle" fill="#1a3a5f">IMPACT</text>
+  
+  <!-- Benefits Section -->
+  <text x="760" y="150" font-family="Arial, sans-serif" font-size="36" font-weight="bold" text-anchor="middle" fill="#1a3a5f">BENEFITS</text>
+  
+  <!-- AMR Robot in Center -->
+  <g transform="translate(500, 400)">
+    <!-- Road/Path -->
+    <rect x="-150" y="-50" width="300" height="100" rx="10" fill="#1a3a5f" />
+    <rect x="-140" y="-5" width="280" height="10" fill="#ffcc00" stroke="none" />
+    
+    <!-- Robot Base -->
+    <rect x="-80" y="-80" width="160" height="100" rx="10" fill="#667788" stroke="#445566" stroke-width="2" />
+    
+    <!-- Robot Top/Sensor -->
+    <circle cx="0" cy="-90" r="15" fill="#3399cc" stroke="#2277aa" stroke-width="2" />
+    
+    <!-- Packages on Robot -->
+    <rect x="-60" y="-120" width="50" height="40" fill="#cc9966" stroke="#aa7744" stroke-width="2" />
+    <rect x="10" y="-140" width="40" height="60" fill="#aaaaaa" stroke="#888888" stroke-width="2" />
+  </g>
+  
+  <!-- Impact Icons and Text -->
+  <!-- Urban Mobility -->
+  <circle cx="100" cy="230" r="40" fill="#1a3a5f" />
+  <path d="M80,230 L120,230 M90,215 L110,215 M85,245 L115,245" stroke="white" stroke-width="3" fill="none" />
+  <text x="165" y="220" font-family="Arial, sans-serif" font-size="22" font-weight="bold" fill="#1a3a5f">Urban Mobility</text>
+  <text x="165" y="245" font-family="Arial, sans-serif" font-size="22" font-weight="bold" fill="#1a3a5f">Solutions</text>
+  
+  <!-- Industrial Transformation -->
+  <circle cx="100" cy="340" r="40" fill="#1a3a5f" />
+  <path d="M80,330 L90,330 L90,350 L110,350 L110,330 L120,330" stroke="white" stroke-width="3" fill="none" />
+  <circle cx="90" cy="325" r="5" fill="white" />
+  <circle cx="110" cy="325" r="5" fill="white" />
+  <text x="165" y="330" font-family="Arial, sans-serif" font-size="22" font-weight="bold" fill="#1a3a5f">Industrial &</text>
+  <text x="165" y="355" font-family="Arial, sans-serif" font-size="22" font-weight="bold" fill="#1a3a5f">Logistic</text>
+  <text x="165" y="380" font-family="Arial, sans-serif" font-size="22" font-weight="bold" fill="#1a3a5f">Transformation</text>
+  
+  <!-- Safety -->
+  <circle cx="100" cy="450" r="40" fill="#1a3a5f" />
+  <path d="M100,430 L100,470 M85,440 L115,460 M85,460 L115,440" stroke="white" stroke-width="3" fill="none" />
+  <circle cx="100" cy="450" r="15" fill="none" stroke="white" stroke-width="3" />
+  <text x="165" y="440" font-family="Arial, sans-serif" font-size="22" font-weight="bold" fill="#1a3a5f">Safety</text>
+  <text x="165" y="465" font-family="Arial, sans-serif" font-size="22" font-weight="bold" fill="#1a3a5f">Improvements</text>
+  
+  <!-- Sustainability -->
+  <circle cx="100" cy="560" r="40" fill="#1a3a5f" />
+  <path d="M100,540 C115,550 115,570 100,580 C85,570 85,550 100,540" stroke="white" stroke-width="3" fill="none" />
+  <text x="165" y="550" font-family="Arial, sans-serif" font-size="22" font-weight="bold" fill="#1a3a5f">Sustainability</text>
+  <text x="165" y="575" font-family="Arial, sans-serif" font-size="22" font-weight="bold" fill="#1a3a5f">& Efficiency</text>
+  
+  <!-- Benefits Icons and Text -->
+  <!-- Flexibility -->
+  <circle cx="900" cy="230" r="40" fill="#1a3a5f" />
+  <path d="M880,230 L920,230 M900,210 L900,250 M880,210 L920,250 M880,250 L920,210" stroke="white" stroke-width="3" fill="none" />
+  <text x="835" y="220" font-family="Arial, sans-serif" font-size="22" font-weight="bold" text-anchor="end" fill="#1a3a5f">Flexibility &</text>
+  <text x="835" y="245" font-family="Arial, sans-serif" font-size="22" font-weight="bold" text-anchor="end" fill="#1a3a5f">Scalability</text>
+  
+  <!-- Cost Savings -->
+  <circle cx="900" cy="340" r="40" fill="#1a3a5f" />
+  <text x="900" y="355" font-family="Arial, sans-serif" font-size="40" font-weight="bold" text-anchor="middle" fill="white">$</text>
+  <text x="835" y="340" font-family="Arial, sans-serif" font-size="22" font-weight="bold" text-anchor="end" fill="#1a3a5f">Cost Savings</text>
+  
+  <!-- Precision -->
+  <circle cx="900" cy="450" r="40" fill="#1a3a5f" />
+  <circle cx="900" cy="450" r="20" fill="none" stroke="white" stroke-width="3" />
+  <circle cx="900" cy="450" r="5" fill="white" />
+  <path d="M900,430 L900,425 M900,475 L900,470 M880,450 L885,450 M915,450 L920,450" stroke="white" stroke-width="2" />
+  <text x="835" y="440" font-family="Arial, sans-serif" font-size="22" font-weight="bold" text-anchor="end" fill="#1a3a5f">Precision &</text>
+  <text x="835" y="465" font-family="Arial, sans-serif" font-size="22" font-weight="bold" text-anchor="end" fill="#1a3a5f">Accuracy</text>
+  
+  <!-- Autonomy -->
+  <circle cx="900" cy="560" r="40" fill="#1a3a5f" />
+  <path d="M885,550 C885,540 915,540 915,550 C925,560 915,580 900,580 C885,580 875,560 885,550 Z" fill="none" stroke="white" stroke-width="3" />
+  <circle cx="895" cy="550" r="3" fill="white" />
+  <circle cx="905" cy="550" r="3" fill="white" />
+  <path d="M890,565 L910,565" stroke="white" stroke-width="2" />
+  <text x="835" y="550" font-family="Arial, sans-serif" font-size="22" font-weight="bold" text-anchor="end" fill="#1a3a5f">Autonomy &</text>
+  <text x="835" y="575" font-family="Arial, sans-serif" font-size="22" font-weight="bold" text-anchor="end" fill="#1a3a5f">Intelligence</text>
+  
+  <!-- Parking/Connectivity Icon -->
+  <g transform="translate(500, 250)">
+    <rect x="-40" y="-40" width="80" height="80" rx="5" fill="#1a3a5f" />
+    <text x="0" y="15" font-family="Arial, sans-serif" font-size="50" font-weight="bold" text-anchor="middle" fill="white">P</text>
+  </g>
+  
+  <!-- Car Icon -->
+  <g transform="translate(450, 350)">
+    <rect x="-30" y="-15" width="60" height="30" rx="10" fill="white" stroke="#1a3a5f" stroke-width="2" />
+    <circle cx="-15" cy="15" r="8" fill="#1a3a5f" />
+    <circle cx="15" cy="15" r="8" fill="#1a3a5f" />
+    <rect x="-25" y="-10" width="50" height="15" rx="3" fill="#1a3a5f" />
+  </g>
+  
+  <!-- WiFi Icon -->
+  <g transform="translate(550, 250)">
+    <path d="M0,0 C15,15 15,-15 0,0 M-10,-10 C15,15 15,-35 -10,-10 M-20,-20 C15,15 15,-55 -20,-20" fill="none" stroke="#1a3a5f" stroke-width="3" />
+    <circle cx="0" cy="0" r="5" fill="#1a3a5f" />
+  </g>
+</svg>

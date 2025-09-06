@@ -1,0 +1,66 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="500" height="400" viewBox="0 0 500 400">
+  <!-- Hilly Background -->
+  <path d="M0,350 Q75,300 150,350 T300,350 T450,350 T600,350" fill="#27ae60" opacity="0.3" stroke="none"/>
+  
+  <!-- Robot Base/Platform -->
+  <rect x="150" y="280" width="200" height="40" rx="10" ry="10" fill="#34495e" stroke="#2c3e50" stroke-width="3"/>
+  
+  <!-- Wheels -->
+  <circle cx="180" cy="320" r="20" fill="#7f8c8d" stroke="#2c3e50" stroke-width="2"/>
+  <circle cx="320" cy="320" r="20" fill="#7f8c8d" stroke="#2c3e50" stroke-width="2"/>
+  <circle cx="180" cy="320" r="10" fill="#2c3e50"/>
+  <circle cx="320" cy="320" r="10" fill="#2c3e50"/>
+  
+  <!-- Robot Body -->
+  <rect x="175" y="180" width="150" height="100" rx="10" ry="10" fill="#3498db" stroke="#2980b9" stroke-width="3"/>
+  
+  <!-- Robot Head/Sensor Array -->
+  <rect x="200" y="130" width="100" height="50" rx="10" ry="10" fill="#3498db" stroke="#2980b9" stroke-width="3"/>
+  
+  <!-- Sensors -->
+  <circle cx="225" cy="155" r="10" fill="#e74c3c" stroke="#c0392b" stroke-width="2"/>
+  <circle cx="250" cy="155" r="10" fill="#f1c40f" stroke="#f39c12" stroke-width="2"/>
+  <circle cx="275" cy="155" r="10" fill="#2ecc71" stroke="#27ae60" stroke-width="2"/>
+  
+  <!-- Robotic Arm -->
+  <path d="M325,200 L375,180 L400,150" fill="none" stroke="#2980b9" stroke-width="8" stroke-linecap="round" stroke-linejoin="round"/>
+  <circle cx="400" cy="150" r="15" fill="#ecf0f1" stroke="#bdc3c7" stroke-width="2"/>
+  
+  <!-- Gripper -->
+  <path d="M390,140 L410,130" fill="none" stroke="#7f8c8d" stroke-width="5" stroke-linecap="round"/>
+  <path d="M390,160 L410,170" fill="none" stroke="#7f8c8d" stroke-width="5" stroke-linecap="round"/>
+  
+  <!-- Load on Platform -->
+  <rect x="175" y="240" width="150" height="40" rx="5" ry="5" fill="#e67e22" stroke="#d35400" stroke-width="2"/>
+  
+  <!-- Control Panel -->
+  <rect x="200" y="190" width="100" height="40" rx="5" ry="5" fill="#2c3e50" stroke="#2c3e50" stroke-width="2"/>
+  
+  <!-- Display Screen -->
+  <rect x="210" y="200" width="80" height="20" rx="2" ry="2" fill="#ecf0f1"/>
+  <text x="250" y="215" font-family="Arial" font-size="10" text-anchor="middle" fill="#2c3e50">AMR SYSTEM</text>
+  
+  <!-- Terrain Sensors -->
+  <rect x="160" y="280" width="20" height="10" fill="#9b59b6" stroke="#8e44ad" stroke-width="1"/>
+  <rect x="320" y="280" width="20" height="10" fill="#9b59b6" stroke="#8e44ad" stroke-width="1"/>
+  
+  <!-- Stability Legs -->
+  <rect x="140" y="300" width="10" height="30" fill="#7f8c8d" stroke="#2c3e50" stroke-width="1"/>
+  <rect x="350" y="300" width="10" height="30" fill="#7f8c8d" stroke="#2c3e50" stroke-width="1"/>
+  
+  <!-- Solar Panel -->
+  <rect x="190" y="130" width="120" height="10" fill="#3498db" stroke="#2980b9" stroke-width="1"/>
+  <line x1="210" y1="130" x2="210" y2="140" stroke="#2980b9" stroke-width="1"/>
+  <line x1="230" y1="130" x2="230" y2="140" stroke="#2980b9" stroke-width="1"/>
+  <line x1="250" y1="130" x2="250" y2="140" stroke="#2980b9" stroke-width="1"/>
+  <line x1="270" y1="130" x2="270" y2="140" stroke="#2980b9" stroke-width="1"/>
+  <line x1="290" y1="130" x2="290" y2="140" stroke="#2980b9" stroke-width="1"/>
+  
+  <!-- Antenna -->
+  <line x1="250" y1="130" x2="250" y2="100" stroke="#7f8c8d" stroke-width="2"/>
+  <circle cx="250" cy="95" r="5" fill="#e74c3c"/>
+  
+  <!-- Terrain -->
+  <path d="M0,350 Q50,330 100,350 T200,350 T300,350 T400,350 T500,350" fill="none" stroke="#27ae60" stroke-width="2"/>
+  <path d="M0,380 Q75,340 150,380 T300,380 T450,380 T600,380" fill="#27ae60" stroke="none"/>
+</svg>

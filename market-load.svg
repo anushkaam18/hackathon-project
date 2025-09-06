@@ -1,0 +1,115 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="500" height="400" viewBox="0 0 500 400">
+  <!-- Market Background -->
+  <rect x="0" y="0" width="500" height="400" fill="#ecf0f1" opacity="0.5"/>
+  
+  <!-- Market Stalls Background -->
+  <rect x="50" y="100" width="400" height="200" fill="#e67e22" opacity="0.1" rx="10" ry="10"/>
+  
+  <!-- Market Stalls -->
+  <rect x="70" y="120" width="100" height="160" fill="#e67e22" opacity="0.5" rx="5" ry="5"/>
+  <rect x="200" y="120" width="100" height="160" fill="#e67e22" opacity="0.5" rx="5" ry="5"/>
+  <rect x="330" y="120" width="100" height="160" fill="#e67e22" opacity="0.5" rx="5" ry="5"/>
+  
+  <!-- Stall Roofs -->
+  <path d="M60,120 L120,80 L180,120" fill="none" stroke="#d35400" stroke-width="3"/>
+  <path d="M190,120 L250,80 L310,120" fill="none" stroke="#d35400" stroke-width="3"/>
+  <path d="M320,120 L380,80 L440,120" fill="none" stroke="#d35400" stroke-width="3"/>
+  
+  <!-- Stall Counters -->
+  <rect x="70" y="180" width="100" height="20" fill="#d35400"/>
+  <rect x="200" y="180" width="100" height="20" fill="#d35400"/>
+  <rect x="330" y="180" width="100" height="20" fill="#d35400"/>
+  
+  <!-- Produce/Goods on Stalls -->
+  <!-- Stall 1: Fruits -->
+  <circle cx="90" cy="170" r="10" fill="#e74c3c"/>  <!-- Apple -->
+  <circle cx="110" cy="170" r="10" fill="#f1c40f"/>  <!-- Banana -->
+  <circle cx="130" cy="170" r="8" fill="#2ecc71"/>   <!-- Lime -->
+  <circle cx="150" cy="170" r="12" fill="#9b59b6"/>  <!-- Plum -->
+  
+  <!-- Stall 2: Vegetables -->
+  <rect x="210" y="165" width="15" height="15" rx="2" ry="2" fill="#2ecc71"/>  <!-- Lettuce -->
+  <rect x="235" y="165" width="15" height="15" rx="7" ry="7" fill="#e67e22"/>  <!-- Pumpkin -->
+  <rect x="260" y="165" width="10" height="15" rx="5" ry="5" fill="#c0392b"/>  <!-- Pepper -->
+  <rect x="280" y="165" width="10" height="15" rx="1" ry="1" fill="#f39c12"/>  <!-- Carrot -->
+  
+  <!-- Stall 3: Goods -->
+  <rect x="340" y="160" width="20" height="20" fill="#3498db"/>  <!-- Box -->
+  <rect x="370" y="160" width="20" height="20" fill="#9b59b6"/>  <!-- Box -->
+  <rect x="400" y="160" width="20" height="20" fill="#2c3e50"/>  <!-- Box -->
+  
+  <!-- Floor/Ground -->
+  <rect x="0" y="300" width="500" height="100" fill="#bdc3c7" opacity="0.5"/>
+  
+  <!-- AMR Robot with Market Load -->
+  <g transform="translate(250, 350) scale(0.6)">
+    <!-- Robot Base/Platform -->
+    <rect x="-60" y="-30" width="120" height="30" rx="10" ry="10" fill="#34495e" stroke="#2c3e50" stroke-width="3"/>
+    
+    <!-- Wheels -->
+    <circle cx="-40" cy="0" r="15" fill="#7f8c8d" stroke="#2c3e50" stroke-width="2"/>
+    <circle cx="40" cy="0" r="15" fill="#7f8c8d" stroke="#2c3e50" stroke-width="2"/>
+    <circle cx="-40" cy="0" r="7" fill="#2c3e50"/>
+    <circle cx="40" cy="0" r="7" fill="#2c3e50"/>
+    
+    <!-- Robot Body -->
+    <rect x="-45" y="-80" width="90" height="50" rx="10" ry="10" fill="#3498db" stroke="#2980b9" stroke-width="3"/>
+    
+    <!-- Robot Head/Sensor Array -->
+    <rect x="-30" y="-110" width="60" height="30" rx="10" ry="10" fill="#3498db" stroke="#2980b9" stroke-width="3"/>
+    
+    <!-- Sensors -->
+    <circle cx="-15" cy="-95" r="5" fill="#e74c3c" stroke="#c0392b" stroke-width="1"/>
+    <circle cx="0" cy="-95" r="5" fill="#f1c40f" stroke="#f39c12" stroke-width="1"/>
+    <circle cx="15" cy="-95" r="5" fill="#2ecc71" stroke="#27ae60" stroke-width="1"/>
+    
+    <!-- Antenna -->
+    <line x1="0" y1="-110" x2="0" y2="-125" stroke="#7f8c8d" stroke-width="2"/>
+    <circle cx="0" cy="-130" r="5" fill="#e74c3c"/>
+    
+    <!-- Market Load on Platform -->
+    <rect x="-50" y="-30" width="100" height="15" fill="#e67e22" stroke="#d35400" stroke-width="2"/>
+    
+    <!-- Boxes/Produce on Platform -->
+    <rect x="-40" y="-45" width="20" height="15" fill="#3498db" stroke="#2980b9" stroke-width="1"/>
+    <rect x="-15" y="-45" width="30" height="15" fill="#e74c3c" stroke="#c0392b" stroke-width="1"/>
+    <rect x="20" y="-45" width="20" height="15" fill="#f1c40f" stroke="#f39c12" stroke-width="1"/>
+  </g>
+  
+  <!-- People -->
+  <g transform="translate(120, 270)">
+    <!-- Body -->
+    <rect x="-5" y="-30" width="10" height="30" fill="#3498db"/>
+    <!-- Head -->
+    <circle cx="0" cy="-40" r="10" fill="#f5b041"/>
+    <!-- Arms -->
+    <line x1="-5" y1="-25" x2="-15" y2="-15" stroke="#3498db" stroke-width="5" stroke-linecap="round"/>
+    <line x1="5" y1="-25" x2="15" y2="-15" stroke="#3498db" stroke-width="5" stroke-linecap="round"/>
+    <!-- Legs -->
+    <line x1="-5" y1="0" x2="-10" y2="20" stroke="#34495e" stroke-width="5" stroke-linecap="round"/>
+    <line x1="5" y1="0" x2="10" y2="20" stroke="#34495e" stroke-width="5" stroke-linecap="round"/>
+  </g>
+  
+  <g transform="translate(350, 270)">
+    <!-- Body -->
+    <rect x="-5" y="-30" width="10" height="30" fill="#e74c3c"/>
+    <!-- Head -->
+    <circle cx="0" cy="-40" r="10" fill="#f5b041"/>
+    <!-- Arms -->
+    <line x1="-5" y1="-25" x2="-15" y2="-15" stroke="#e74c3c" stroke-width="5" stroke-linecap="round"/>
+    <line x1="5" y1="-25" x2="15" y2="-15" stroke="#e74c3c" stroke-width="5" stroke-linecap="round"/>
+    <!-- Legs -->
+    <line x1="-5" y1="0" x2="-10" y2="20" stroke="#34495e" stroke-width="5" stroke-linecap="round"/>
+    <line x1="5" y1="0" x2="10" y2="20" stroke="#34495e" stroke-width="5" stroke-linecap="round"/>
+  </g>
+  
+  <!-- Market Sign -->
+  <rect x="200" y="40" width="100" height="30" rx="5" ry="5" fill="#3498db"/>
+  <text x="250" y="60" font-family="Arial" font-size="14" font-weight="bold" text-anchor="middle" fill="white">MARKET</text>
+  
+  <!-- Weight Indicator -->
+  <g transform="translate(250, 250)">
+    <rect x="-30" y="0" width="60" height="20" rx="5" ry="5" fill="white" stroke="#2c3e50" stroke-width="1"/>
+    <text x="0" y="15" font-family="Arial" font-size="12" text-anchor="middle" fill="#2c3e50">50kg Load</text>
+  </g>
+</svg>
